@@ -1,0 +1,80 @@
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+.image {
+    grid-column: 1 / 3; 
+    width: 100%; 
+    object-fit: cover; 
+  }
+
+.meal-type {
+    grid-column-start: 1 ;
+    grid-column-end: 1; 
+    align-self: center;
+    padding: 20px; 
+  }
+
+.label {
+    grid-column: 1; 
+    align-self: center; 
+    padding: 20px;
+  }
+
+.dish {
+    grid-column: 1; 
+    align-self: center;
+    padding-left: 20px;
+}
+
+.totaltime {
+    grid-column: 1; 
+    align-self: center; 
+    padding-left: 20px;
+}
+
+.servings {
+    grid-column: 1; 
+    align-self: center;
+    padding-left: 20px; 
+}
+
+.ingredients {
+    grid-column: 1;
+    grid-row-start: 7; 
+    grid-row-end: 9; 
+    align-self: center; 
+    padding: 20px;
+}
+
+.health-labels {
+    grid-row-start: 2;
+    grid-row-end: 7;
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    padding: 10px;
+}
+
+.diet-labels {
+    grid-column: 2; 
+    grid-row-start: 7;
+    grid-row-end: 8; 
+    padding: 10px;
+}
+
+.cautions {
+    grid-column: 2; 
+    grid-row-start: 8;
+    grid-row-end: 9; 
+    padding: 10px;
+}
+
+.nutrients {
+    grid-column: 2;
+    grid-row: auto;
+    padding-bottom: 200px; 
+}
+
